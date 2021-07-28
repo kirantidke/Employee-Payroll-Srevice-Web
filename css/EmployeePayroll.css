@@ -29,16 +29,16 @@ html body{
     color: #82a70c;
     text-transform: capitalize;
 }
-.emp-payroll{color: rebeccapurple;}
+.emp-payroll{color: #42515f;}
 *{box-sizing: border-box;}
 
 .form-content{
     display: flex;
     min-height: calc(100% - 80px);
-    background-color: rgb(15, 72, 122);
+    background-color: aliceblue;
     justify-content: center;
     align-items: center;
-    border: 0px solid rgb(138, 100, 107);
+    border: 0px solid green;
 }
 .form{
     width: 65%;
@@ -81,4 +81,18 @@ label{
     border: 1px solid #ccc;
     border-radius: 4px;
     resize : vertical;
+}
+.profile-radio-content{
+    display: flex;
+    flex-direction: row;
+}
+.profile-radio-content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
